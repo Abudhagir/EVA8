@@ -1,7 +1,5 @@
-mention the data representation
 
-
-must mention your data generation strategy (basically the class/method you are using for random number generation)
+Data generation strategy (basically the class/method you are using for random number generation)
 def __getitem__(self, index):
     image = self.MNISTDataset[index][0]
     label = self.MNISTDataset[index][1]
@@ -15,13 +13,12 @@ def __getitem__(self, index):
     return image, label, one_hotrandomNo[randomNo], sum
 
 
-must mention how you have combined the two inputs (basically which layer you are combining)
- #concatenate second input to the output from above convolution
-        x1 = torch.cat((x, randomNumber), dim=1)
+How you have combined the two inputs (basically which layer you are combining)
+    #concatenate second input to the output from above convolution
+    x1 = torch.cat((x, randomNumber), dim=1)
         
-must mention how you are evaluating your results 
+How you are evaluating your results 
 
-must mention "what" results you finally got and how did you evaluate your results
         # compute the loss occured
         mnist_loss = F.nll_loss(output, target)
         addition_loss = F.nll_loss(sum_output, sum)
@@ -32,5 +29,5 @@ must mention "what" results you finally got and how did you evaluate your result
         
 must mention what loss function you picked and why!
 
-Negative Loglihood Loss Function. 
+Negative Loglihood Loss Function
 
