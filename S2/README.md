@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/8513086/212534910-8c7e1b69-4c5d-4d86-ac37-ee6299add979.png)
+
+
 
 Data generation strategy (basically the class/method you are using for random number generation)
 def __getitem__(self, index):
