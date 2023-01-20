@@ -21,29 +21,31 @@ Analysis
 . Capacity can be increased
 
 Code2
+
 Target
 
-. Added 1 more convolution layer and Gap Layer
+. Changed the in and output channels, batch norm 
 
 . Changed the number of kernels in some conv layers
 
-. Increased the capacity
+. Dropout - 0.15
 
 Results
 
-. Parameters - 9634
+. Parameters - 6656
 
-. Best training accuracy- 98.67
+. Best training accuracy- 98.44
 
-. Best test accuracy - 99.4
+. Best test accuracy - 99.02
 
 Analysis
 
-. Target is reached, but only once.
+. Target is not reached, 
 
 . Model is still under-fitting
 
 Code 3
+
 Target
 
 . Increased the dropout from 0.1 to 0.12
