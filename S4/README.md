@@ -1,5 +1,6 @@
 Code1 - Setup
 
+
 Target
 
 . Set up the skeleton with dropout, batch Norm etc
@@ -44,19 +45,20 @@ Analysis
 
 . Model is still under-fitting
 
+
 Code 3
 
 Target
 
-. Increased the dropout from 0.1 to 0.12
+. Increased the dropout from 0.05
 
 Results
 
-. Parameters - 9872
+. Parameters - 6656
 
-. Best training accuracy- 98.64
+. Best training accuracy- 98.88
 
-. Best test accuracy - 99.32
+. Best test accuracy - 99.23
 
 Analysis
 
@@ -64,40 +66,24 @@ Analysis
 
 . The accuracy of both is reduced by increasing dropout
 
+
 Code 4
+
 Target
 
-. Decreased the dropout from 0.12 to 0.05
+. Decreased the dropout from 0.001
 
 Results
 
-. Parameters - 9872
+. Parameters - 9680
 
-. Best training accuracy- 98.91
+. Best training accuracy- 99.30
 
-. Best test accuracy - 99.53
+. Best test accuracy - 99.37
 
 Analysis
 
-. Reached the desired accuracy at 8th epoch
+. Reached the desired accuracy at 12th epoch
 
 . Should see how it works introducing LR and reducing no of parameters
-
-Code 5
-Target
-
-. Decreased the dropout from 0.05 to 0.02
-
-Results
-
-Parameters - 8016
-
-Best training accuracy- 98.93
-
-Best test accuracy - 99.42
-
-Analysis
-
-. Reached the desired accuracy at 11th epoch with less parameters
-
 
