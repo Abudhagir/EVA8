@@ -6,11 +6,11 @@ Target
 
 Results
 
-. Parameters - 8064
+. Parameters - 9368
 
-. Best training accuracy- 98.13
+. Best training accuracy- 98.57
 
-. Best test accuracy - 99.17
+. Best test accuracy - 99.11
 
 Analysis
 
