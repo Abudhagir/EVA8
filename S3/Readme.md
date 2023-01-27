@@ -1,4 +1,5 @@
 Neural Network BackPropogation using Excel
+
 Backpropagation is a common method for training a neural network. The goal of backpropagation is to optimize the weights so that the neural network can learn how to correctly map arbitrary inputs to outputs. We will see how it works with a concrete example with calculations using excel sheet to understand backpropagation correctly. Here, we’re going to use a neural network with two inputs, two hidden neurons, two output neurons and we are ignoring the bias.
 
 
@@ -7,17 +8,20 @@ Here are the initial weights, for us to work with:
 
 w1 = 0.15	w2 = 0.2	w3 = 0.25	w4 = 0.3
 w5 = 0.4	w6 = 0.45	w7 = 0.5	w8 = 0.55
-We’re going to work with a single training set: given inputs 0.05 and 0.10, we want the neural network to output 0.01 and 0.99.
+
+To work with a single training set: given inputs 0.05 and 0.10, we want the neural network to output 0.01 and 0.99, for different Learning Rate-0.1,0.2, 0.5, 0.8, 1.0, 2.0
 
 Forward Propogation
 We will first pass the above inputs through the network by multiplying the inputs to the weights and calculate the h1 and h2
 
   h1 =w1*i1+w2+i2
   h2 =w3*i1+w4*i2
+  
 The output from the hidden layer neurons (h1 and h2) are passed to activated neurons using a activation function (here we are using sigmoid activation), this helps in adding non linearity to the network.
 
   a_h1 = σ(h1) = 1/(1+exp(-h1))
   a_h2 = σ(h2) = 1/(1+exp(-h2))
+  
 We repeat this process for the output layer neurons, using the output from the hidden layer actiavted neurons as inputs.
 
   o1 = w5 * a_h1 + w6 * a_h2
@@ -25,18 +29,22 @@ We repeat this process for the output layer neurons, using the output from the h
   
   a_o1 = σ(o1) = 1/(1+exp(-o1))
   a_o2 = σ(o2) = 1/(1+exp(-o2))
+  
 Next, we calculate the error for each output neurons (a_o1 and a_o2) using the squared error function and sum them up to get the total error (E_total)
 
 Calculating the Error (Loss)
+
 E1 = ½ * ( t1 - a_o1)²
 E2 = ½ * ( t2 - a_o2)²
 E_Total = E1 + E2
+
 Note: 1/2 is included so that exponent is cancelled when we differenciate the error term.
 
 Back Propogation
+
 During back propogation, we would help the network learn and get better by updating the weights such that the total error is minimum
 
-First we calculate the partial derivative of E_total with respect to w5
+First, we calculate the partial derivative of E_total with respect to w5
 
 δE_total/δw5 = δ(E1 +E2)/δw5
 
@@ -78,6 +86,11 @@ Once we have gradients for all the weights with respect to the total error, we s
     w8 = w6 - learning_rate * δE_total/δw6
     w7 = w7 - learning_rate * δE_total/δw7
     w8 = w8 - learning_rate * δE_total/δw8
+    
 We repeat this entire process for forward and backward pass until we get minimum error.
+
+Backpropagaion Graph for Different Learning Rate for 10 Epoch
+
+![image](https://user-images.githubusercontent.com/8513086/215081751-508d38f8-954c-4a05-870a-19dcb50808d4.png)
 
 
