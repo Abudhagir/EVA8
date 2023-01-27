@@ -29,32 +29,31 @@ Target
 
 	. Changed the number of kernels in some conv layers
 
-	. Dropout - 0.15
+	. Dropout - 0.0
+	
+	. Parameters - 6656
 
 Results
 
-	. Parameters - 6656
+	. Best training accuracy- 99.19
 
-	. Best training accuracy- 98.44
-
-	. Best test accuracy - 99.02
+	. Best test accuracy - 99.27
 
 Analysis
 
-	. Target is not reached, 
+	. Target is not reached
 
 	. Model is still under-fitting
 
 
 Code 3
 
-Target
+Model:
 
-	. Increased the dropout from 0.05
+	. Dropout - 0.05
+	. Parameters - 6656
 
 Results
-
-	. Parameters - 6656
 
 	. Best training accuracy- 98.88
 
@@ -67,15 +66,14 @@ Analysis
 	. The accuracy of both is reduced by increasing dropout
 
 
-Code 4
+Code 4:
 
-Target
+Model
 
-	. Dropout from 0.001
+	. Dropout -0.001
+	. Parameters - 9680
 
 Results
-
-	. Parameters - 9680
 
 	. Best training accuracy- 99.30
 
@@ -88,15 +86,14 @@ Analysis
 	. Should see how it works introducing LR and reducing no of parameters
 
 
-Code 5
+Code 5:
 
-Target
+Model:
 
 	. Dropout - 0.01
+	. Parameters - 6766
 
 Results
-
-	. Parameters - 6766
 
 	. Best training accuracy- 99.27
 
@@ -104,5 +101,11 @@ Results
 
 Analysis
 
-	. Reached the desired accuracy at 14th epoch
+	. Reached the nearer to the desired accuracy at 14th epoch
+	
+
+Observation:
+	
+	We shouldn't shrink the trainable parameters for better accuracy. 
+	
 
