@@ -92,18 +92,17 @@ Code 5
 
 Target
 
-	. Decreased the dropout from 0.02
+	. Dropout - 0.01
 
 Results
 
 	. Parameters - 6766
 
-	. Best training accuracy- 99.30
+	. Best training accuracy- 99.27
 
 	. Best test accuracy - 99.38
 
 Analysis
 
-	. Reached the desired accuracy at 12th epoch
+	. Reached the desired accuracy at 14th epoch
 
-	. Should see how it works introducing LR and reducing no of parameters
