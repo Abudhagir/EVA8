@@ -71,7 +71,7 @@ Code 4
 
 Target
 
-	. Decreased the dropout from 0.001
+	. Dropout from 0.001
 
 Results
 
@@ -79,7 +79,7 @@ Results
 
 	. Best training accuracy- 99.30
 
-	. Best test accuracy - 99.37
+	. Best test accuracy - 99.40
 
 Analysis
 
