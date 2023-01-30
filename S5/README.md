@@ -22,6 +22,10 @@ Create a GN/BN/LN Model and its accuracies in single model.py and plot a graph t
 
 5.	your 3 collection-of-misclassified-images: 
 
+![image](https://user-images.githubusercontent.com/8513086/215552687-f4e5e28b-0c0f-4c05-bae5-1db134554ccb.png)
+![image](https://user-images.githubusercontent.com/8513086/215552760-005399ae-945f-412d-afec-5fc2b1259f32.png)
+
+
 ![image](https://user-images.githubusercontent.com/8513086/215546354-37dddf89-5e11-46e9-94f4-cef60da813d2.png)
 
 
