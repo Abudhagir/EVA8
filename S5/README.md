@@ -24,6 +24,8 @@ Create a GN/BN/LN Model and its accuracies in single model.py and plot a graph t
 
 ![image](https://user-images.githubusercontent.com/8513086/215552687-f4e5e28b-0c0f-4c05-bae5-1db134554ccb.png)
 ![image](https://user-images.githubusercontent.com/8513086/215552760-005399ae-945f-412d-afec-5fc2b1259f32.png)
+![image](https://user-images.githubusercontent.com/8513086/215552895-db474957-48f4-4898-ab5d-fbed2142abff.png)
+![image](https://user-images.githubusercontent.com/8513086/215552946-21be70a6-af31-43aa-8289-e39f764513a2.png)
 
 
 ![image](https://user-images.githubusercontent.com/8513086/215546354-37dddf89-5e11-46e9-94f4-cef60da813d2.png)
