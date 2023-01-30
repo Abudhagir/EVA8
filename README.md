@@ -1,4 +1,10 @@
-# S3 Part 2 Assignment
-S3 Assignment
+# Extensive Vision AI Programme
 
-Accuracy = 99.31% No of Parameters = 13400
+Resources:
+
+Deep Learning Material
+
+
+Computer Vision Material
+
+Models
