@@ -1,7 +1,9 @@
 
 Objective:
+
     Run this network Links to an external site..
     Fix the network above:
+    
     change the code such that it uses GPU and
     change the architecture to C1C2C3C40 (No MaxPooling, but 3 3x3 layers with stride of 2 instead) (If you can figure out how to use Dilated kernels here instead of MP or strided convolution, then 200pts extra!)
     total RF must be more than 44
