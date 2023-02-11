@@ -27,7 +27,8 @@ your colab file must:
 ![image](https://user-images.githubusercontent.com/8513086/218255078-713eee90-c4f6-4f75-8b8c-37eefd048094.png)
 
 
-  **GRADCAM MISCLASSFIED IMAGE**
+  **GRADCAM IMAGE**
+  
   
 
 
