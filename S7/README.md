@@ -18,16 +18,16 @@ your colab file must:
     **syed_eva8** - Folder is created
         models, utils and main files are updated here.
 
- PLOT
+  **PLOT**
 
 ![image](https://user-images.githubusercontent.com/8513086/218254925-3d468181-c186-4fa1-9e4f-baf3c40fc519.png)
 
 **MISCLASSIFIED IMAGES:**
 
+![image](https://user-images.githubusercontent.com/8513086/218255078-713eee90-c4f6-4f75-8b8c-37eefd048094.png)
 
 
   **GRADCAM MISCLASSFIED IMAGE**
   
-  
-![Uploading image.png…]()
+
 
