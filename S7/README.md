@@ -16,19 +16,18 @@ your colab file must:
         CutOut(16x16)
 
     **syed_eva8** - Folder is created
-        
+        models, utils and main files are updated here.
 
+ PLOT
+
+![image](https://user-images.githubusercontent.com/8513086/218254925-3d468181-c186-4fa1-9e4f-baf3c40fc519.png)
 
 **MISCLASSIFIED IMAGES:**
 
-![image](https://user-images.githubusercontent.com/8513086/218254376-faf96305-11eb-4096-8ae3-413f2d8fc55a.png)
 
 
   **GRADCAM MISCLASSFIED IMAGE**
   
-  ![image](https://user-images.githubusercontent.com/8513086/218254613-33c1baa7-d49e-43f2-9f12-0fbed3a5f5be.png)
+  
+![Uploading image.png…]()
 
-  ![image](https://user-images.githubusercontent.com/8513086/218254622-32c2277d-5a41-42ae-b0d4-776a8f972c7a.png)
-
-![image](https://user-images.githubusercontent.com/8513086/218254648-6bb2904e-761e-4e92-b4eb-72873b905445.png)
-![image](https://user-images.githubusercontent.com/8513086/218254658-35522bd2-6b6a-4337-9780-7e6cc7cfc25d.png)
