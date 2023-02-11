@@ -4,3 +4,11 @@ your colab file must: train resnet18 for 20 epochs on the CIFAR10 dataset show l
 
 **syed_eva8** - Folder is created
     models, utils and main files are updated here.
+    
+    ![image](https://user-images.githubusercontent.com/8513086/218257140-ca4a19fe-a1a0-4a03-944a-8ff6d795d035.png)
+20 Misclassified Images
+
+![image](https://user-images.githubusercontent.com/8513086/218257153-7ecf40f8-0e39-481f-b7c0-a6755fbeedc7.png)
+
+GRADCAM Images
+
