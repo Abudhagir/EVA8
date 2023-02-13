@@ -4,22 +4,25 @@ your colab file must: train resnet18 for 20 epochs on the CIFAR10 dataset show l
 
 **syed_eva8** - Folder is created
     models, utils and main files are updated here.
-    
+      
     
     ![image](https://user-images.githubusercontent.com/8513086/218257140-ca4a19fe-a1a0-4a03-944a-8ff6d795d035.png)
 
+
+![image](https://user-images.githubusercontent.com/8513086/218257140-ca4a19fe-a1a0-4a03-944a-8ff6d795d035.png)
+
 Analysis
-Attempt 1 - Patience value = 10
-Epochs - 40
-Best Training Accuracy - 82.46% (39th Epoch)
-Best Testing Accuracy - 81.33% (40th Epoch)
+
+Epochs - 20
+Best Training Accuracy - 87.77% (20th Epoch)
+Best Testing Accuracy - 85.34% (19th Epoch)
 
 Optimizer - Adam (learning rate = 0.01, weight decay = 1e-5
 Scheduler - ReduceLROnPlateau (mode='min', factor=0.1, patience=10, threshold=0.0001, threshold_mode='abs', cooldown=0, min_lr=0, eps=1e-08, verbose=False)
 Finding - threshold mode "abs" is necessary for mode = "min" when loss is expected to be negative
 
 Attempt 2 - Patience value = 2
-Epochs - 40
+Epochs - 20
 Best Training Accuracy - 88.23% (39th Epoch)
 Best Testing Accuracy - 84.79% (40th Epoch)
 
