@@ -72,6 +72,7 @@ Apply these transforms while training:
 
 ![image](https://user-images.githubusercontent.com/8513086/218257140-ca4a19fe-a1a0-4a03-944a-8ff6d795d035.png)
 
+Tensorboard Stuffs are added
 
 Analysis
 
