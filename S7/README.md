@@ -20,7 +20,6 @@ A. You are going to follow the same structure for your Code from now on. So Crea
     4. Name this main repos something, and don't call it Assignment 7. This is what you'll import for all the rest of the assignments. Add a proper readme describing all the files. 
     
 B. Your assignment is to build the above training structure. Train ResNet18 on Cifar10 for 20 Epochs. The assignment must:
-
     pull your Github code to google colab (don't copy-paste code)
     prove that you are following the above structure
     that the code in your google collab notebook is NOTHING.. barely anything. There should not be any function or class that you can define in your Google Colab Notebook. Everything must be imported from all of your other files
@@ -49,6 +48,7 @@ Apply these transforms while training:
     models, utils and main files are updated here.
       
       Abudhagir/syed_eva8-  New Repo name
+      
         |
         |---------models
         |             |
