@@ -18,18 +18,29 @@ Create a block called ULTIMUS that:
     X*V = 48*48x8 > 8 
     
   then create AM = SoftMax(QTK)/(8^0.5) = 8*8 = 8
-  
+    
   then Z = V*AM = 8*8 > 8
+  
   then another FC layer called Out that:
+  
     Z*Out = 8*8x48 > 48
+    
 Repeat this Ultimus block 4 times
+
 Then add final FC layer that converts 48 to 10 and sends it to the loss function.
+
 Model would look like this C>C>C>U>U>U>U>FFC>Loss
+
 Train the model for 24 epochs using the OCP that I wrote in class. Use ADAM as an optimizer. 
+
 
 Submit the link and answer the questions on the assignment page:
 
   Share the link to the main repo (must have Assignment 7/8/9 model7/8/9.py files (or similarly named))
+  
   Share the code of model9.py
+  
   Copy and paste the Training Log
+  
   Copy and paste the training and validation loss chart
+  
