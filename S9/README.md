@@ -4,14 +4,21 @@ Session 9 Assignment
 Build the following network:
 
 That takes a CIFAR10 image (32x32x3)
+
 Add 3 Convolutions to arrive at AxAx48 dimensions (e.g. 32x32x3 | 3x3x3x16 >> 3x3x16x32 >> 3x3x32x48)
+
 Apply GAP and get 1x1x48, call this X
+
 Create a block called ULTIMUS that:
+
   Creates 3 FC layers called K, Q and V such that:
+  
     X*K = 48*48x8 > 8
     X*Q = 48*48x8 > 8 
     X*V = 48*48x8 > 8 
+    
   then create AM = SoftMax(QTK)/(8^0.5) = 8*8 = 8
+  
   then Z = V*AM = 8*8 > 8
   then another FC layer called Out that:
     Z*Out = 8*8x48 > 48
